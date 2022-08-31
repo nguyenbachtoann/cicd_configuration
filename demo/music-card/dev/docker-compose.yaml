@@ -4,3 +4,4 @@ services:
   app:
     container_name: music-card
     image: ${IMAGE_NAME}
+    tty: true
