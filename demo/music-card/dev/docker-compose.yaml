@@ -5,3 +5,5 @@ services:
     container_name: music-card
     image: ${IMAGE_NAME}
     tty: true
+    ports:
+      - "1209:80"
