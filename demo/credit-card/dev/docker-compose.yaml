@@ -6,4 +6,4 @@ services:
     image: ${IMAGE_NAME}
     tty: true
     ports:
-      - "1209:80"
+      - "1209:82"
